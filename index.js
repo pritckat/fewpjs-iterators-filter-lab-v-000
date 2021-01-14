@@ -6,3 +6,7 @@ function findMatching(arr, driver) {
 function fuzzyMatch(arr, letters) {
   return arr.filter(d => d.slice(0, letters.length) == letters)
 }
+
+function matchName() {
+  
+}
