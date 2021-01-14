@@ -4,5 +4,5 @@ function findMatching(arr, driver) {
 }
 
 function fuzzyMatch(arr, letters) {
-  return arr.filter(d => d == letters.slice(-d.length))
+  return arr.filter(d => d.slice(d.length) == letters)
 }
